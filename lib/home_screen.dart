@@ -15,6 +15,9 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
        title: Text("Hello World"),
+        actions: [
+          Icon(Icons.ice_skating),
+        ],
       ),
     );
   }
